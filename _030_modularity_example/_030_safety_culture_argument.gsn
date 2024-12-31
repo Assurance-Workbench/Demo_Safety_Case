@@ -1,0 +1,9 @@
+goal_structure _030_safety_culture_argument_leg;
+
+goal G_Culture_01 {
+    description: "Safety culture is 
+                  established in our 
+                  organisation.";
+    undeveloped;
+}
+

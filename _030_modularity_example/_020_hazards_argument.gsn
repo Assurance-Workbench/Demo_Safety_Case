@@ -1,0 +1,26 @@
+goal_structure _020_hazards_argument_leg;
+
+goal G_Haz_01 {
+    description: "All hazards 
+                  have been
+                  addressed.";
+    supported_by: S_Haz_01;
+}
+
+strategy S_Haz_01 {
+    description: "Argument over
+                individual hazards.";
+    supported_by: G_Haz_02, G_Haz_03; 
+}
+
+goal G_Haz_02 {
+    description: "Hazard {H1} has
+                 been eliminated.";
+    undeveloped;
+}
+
+goal G_Haz_03 {
+    description: "Hazard {H2} is
+                 negligible.";
+    undeveloped;
+}
