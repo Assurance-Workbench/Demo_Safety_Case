@@ -1,0 +1,33 @@
+goal_structure _010_top_argument;
+
+goal Top_Goal {
+    description: "The system is sufficiently 
+                  safe to operate";
+    supported_by: ST_1;
+}
+
+strategy ST_1 {
+    description: "Rigorous and systematic
+                 identification and
+                 mitigation of risks";
+    supported_by: G2, G3, G4;
+}
+
+goal G2 {
+    description: "All hazards 
+                  have been identified.";
+    undeveloped;
+}
+
+goal G3 {
+    description: "All hazards have
+                  been addressed.";
+    away: G_Haz_01;
+}
+
+goal G4 {
+    description: "Safety culture is 
+                  established in our 
+                  organisation.";
+    away: G_Culture_01;
+}

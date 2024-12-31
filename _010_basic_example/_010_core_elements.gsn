@@ -1,14 +1,13 @@
-goal_structure _010_simple_example;
+goal_structure _010_core_elements;
 
 goal Top_Goal {
     description: "The system is sufficiently 
                   safe to operate";
     supported_by: ST_1;
 }
-                  
+
 strategy ST_1 {
-    description: "Argument over 
-                  hazards.";
+    description: "Argument over hazards.";
     supported_by: G2, G3, G4;
 }
 
